@@ -1,0 +1,2216 @@
+Feb 26, 2019 9:49:34 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 9:49:34 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:49:34 PM jsystem.framework.JSystemProperties restoreFromBackup
+SEVERE: JSystem properties file was empty, restoring from backup.
+Feb 26, 2019 9:49:34 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:49:37 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:49:37 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 9:49:37 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 9:49:37 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 9:49:37 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Can't display test code because java2html.jar is missing.'
+Feb 26, 2019 9:49:38 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code because java2html jar is missing. de.java2html.javasource.JavaSourceParser
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 9:49:38 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 9:49:38 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 21:49:38 IST 2019'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 21:49:38 IST 2019'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 9:49:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 9:49:38 PM jsystem.framework.report.RunnerListenersManager fireEndTest
+SEVERE: Fail to add endTest
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at jsystem.extensions.report.junit.JUnitReporter.toXml(JUnitReporter.java:143)
+	at jsystem.extensions.report.junit.JUnitReporter.endTest(JUnitReporter.java:116)
+	at jsystem.framework.report.RunnerListenersManager.fireEndTest(RunnerListenersManager.java:656)
+	at jsystem.framework.report.RunnerListenersManager.endTest(RunnerListenersManager.java:559)
+	at junit.framework.JSystemJUnit4ClassRunner$TestListenerAdapter.testFinished(JSystemJUnit4ClassRunner.java:164)
+	at org.junit.runner.notification.RunNotifier$7.notifyListener(RunNotifier.java:145)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:41)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:142)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:98)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at junit.framework.JSystemJUnit4ClassRunner.run(JSystemJUnit4ClassRunner.java:250)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+
+Feb 26, 2019 9:49:38 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 9:51:17 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 9:51:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:51:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:51:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:51:17 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 9:51:17 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 9:51:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 9:51:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Can't display test code because java2html.jar is missing.'
+Feb 26, 2019 9:51:18 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code because java2html jar is missing. de.java2html.javasource.JavaSourceParser
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 9:51:18 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 9:51:18 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 21:51:18 IST 2019'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 21:51:18 IST 2019'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 9:51:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 9:51:18 PM jsystem.framework.report.RunnerListenersManager fireEndTest
+SEVERE: Fail to add endTest
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at jsystem.extensions.report.junit.JUnitReporter.toXml(JUnitReporter.java:143)
+	at jsystem.extensions.report.junit.JUnitReporter.endTest(JUnitReporter.java:116)
+	at jsystem.framework.report.RunnerListenersManager.fireEndTest(RunnerListenersManager.java:656)
+	at jsystem.framework.report.RunnerListenersManager.endTest(RunnerListenersManager.java:559)
+	at junit.framework.JSystemJUnit4ClassRunner$TestListenerAdapter.testFinished(JSystemJUnit4ClassRunner.java:164)
+	at org.junit.runner.notification.RunNotifier$7.notifyListener(RunNotifier.java:145)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:41)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:142)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:98)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at junit.framework.JSystemJUnit4ClassRunner.run(JSystemJUnit4ClassRunner.java:250)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+
+Feb 26, 2019 9:51:18 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 9:55:42 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 9:55:42 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:55:42 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:55:42 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:55:42 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 9:55:42 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 9:55:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 9:55:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Can't display test code because java2html.jar is missing.'
+Feb 26, 2019 9:55:43 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code because java2html jar is missing. de.java2html.javasource.JavaSourceParser
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 9:55:43 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 9:55:43 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:55:43: Hello JSystem '
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 21:55:43 IST 2019'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 21:55:43 IST 2019'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 9:55:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 9:55:43 PM jsystem.framework.report.RunnerListenersManager fireEndTest
+SEVERE: Fail to add endTest
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at jsystem.extensions.report.junit.JUnitReporter.toXml(JUnitReporter.java:143)
+	at jsystem.extensions.report.junit.JUnitReporter.endTest(JUnitReporter.java:116)
+	at jsystem.framework.report.RunnerListenersManager.fireEndTest(RunnerListenersManager.java:656)
+	at jsystem.framework.report.RunnerListenersManager.endTest(RunnerListenersManager.java:559)
+	at junit.framework.JSystemJUnit4ClassRunner$TestListenerAdapter.testFinished(JSystemJUnit4ClassRunner.java:164)
+	at org.junit.runner.notification.RunNotifier$7.notifyListener(RunNotifier.java:145)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:41)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:142)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:98)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at junit.framework.JSystemJUnit4ClassRunner.run(JSystemJUnit4ClassRunner.java:250)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+
+Feb 26, 2019 9:55:43 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 9:58:41 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 9:58:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:58:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:58:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 9:58:41 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 9:58:41 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 9:58:41 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 9:58:41 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 9:58:42 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 9:58:42 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 9:58:42 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:58:42: Hello JSystem '
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 21:58:42 IST 2019'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 21:58:42 IST 2019'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 9:58:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 9:58:42 PM jsystem.framework.report.RunnerListenersManager fireEndTest
+SEVERE: Fail to add endTest
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at jsystem.extensions.report.junit.JUnitReporter.toXml(JUnitReporter.java:143)
+	at jsystem.extensions.report.junit.JUnitReporter.endTest(JUnitReporter.java:116)
+	at jsystem.framework.report.RunnerListenersManager.fireEndTest(RunnerListenersManager.java:656)
+	at jsystem.framework.report.RunnerListenersManager.endTest(RunnerListenersManager.java:559)
+	at junit.framework.JSystemJUnit4ClassRunner$TestListenerAdapter.testFinished(JSystemJUnit4ClassRunner.java:164)
+	at org.junit.runner.notification.RunNotifier$7.notifyListener(RunNotifier.java:145)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:41)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:142)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:98)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:54)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:52)
+	at junit.framework.JSystemJUnit4ClassRunner.run(JSystemJUnit4ClassRunner.java:250)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+
+Feb 26, 2019 9:58:42 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:00:56 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:00:56 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:00:56 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:00:57 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:00:57 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:00:57 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:00:57 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:00:57 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:00:57 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:00:57: Hello JSystem '
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:00:57 IST 2019'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:00:57 IST 2019'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:00:57 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:00:58 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:01:07 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:01:07 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:07 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:07 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:07 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:01:07 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:01:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:01:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:01:08 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:01:08 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:01:08 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:01:08: Hello JSystem '
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:01:08 IST 2019'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:01:08 IST 2019'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:01:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:01:08 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:01:23 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:01:23 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:23 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:24 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:01:24 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:01:24 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:01:24 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:01:24 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:01:24 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:01:24 IST 2019'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:01:24 IST 2019'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:01:24 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:01:24 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:03:46 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:03:46 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:03:46 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:03:46 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:03:46 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:03:46 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:03:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:03:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:03:47 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:03:47 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:03:47 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:03:47 IST 2019'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:03:47 IST 2019'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:03:47 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:03:47 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:04:01 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:04:01 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:04:01 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:04:01 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:04:02 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:04:02 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:04:02 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:04:02 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:04:02 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:04:02 IST 2019'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:04:02 IST 2019'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:04:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:04:03 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(2)Steps in test: exercise.null :'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:04:03 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:04:03 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:04:03 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:04:03: Hello JSystem '
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:04:03 IST 2019'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:04:03 IST 2019'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:04:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:04:03 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:09:19 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:09:19 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:09:19 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:09:20 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:09:20 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:09:20 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:09:20 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:09:20 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:09:20 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:09:20: Fail: null'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:09:20 IST 2019'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:09:20 IST 2019'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:09:20 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:09:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:09:20: Fixture: root failTearDown'
+Feb 26, 2019 10:11:11 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:11:11 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:11 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:11 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:11 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:11:11 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:11:11 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:11:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:11:12 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:11:12 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:11:12: Hello JSystem '
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:11:12: pom.xml Exist'
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:11:11 IST 2019'
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:11:12 IST 2019'
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:11:12 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:11:12 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:11:33 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:11:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:11:33 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:11:33 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:11:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:11:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:11:34 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:11:34 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:11:34 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:11:34: Hello JSystem '
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:11:34: Fail: null'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:11:34 IST 2019'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:11:34 IST 2019'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:11:34 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:11:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:11:34: Fixture: root failTearDown'
+Feb 26, 2019 10:15:02 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:15:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:15:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:15:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:15:02 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:15:02 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:15:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:15:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:15:03 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:15:03 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:15:03 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:15:03: Hello JSystem '
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:15:03: Fail: null'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:15:03 IST 2019'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:15:03 IST 2019'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:15:03 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:15:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:15:03: Fixture: root failTearDown'
+Feb 26, 2019 10:19:33 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:19:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:19:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:19:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:19:33 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:19:33 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:19:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:19:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:19:34 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:19:34 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:19:34 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:19:34: Hello JSystem '
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:19:34: Fail: null'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:19:34 IST 2019'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:19:34 IST 2019'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:19:34 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:19:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:19:34: Fixture: root failTearDown'
+Feb 26, 2019 10:20:10 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:20:10 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:20:10 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:20:10 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:20:10 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:20:10 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:20:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:20:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:20:11 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:20:11 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:20:11 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:20:11: Hello JSystem '
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:20:11: pom.xml Exist'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:20:11 IST 2019'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:20:11 IST 2019'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:20:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:20:11 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:23:06 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:23:06 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:23:06 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:23:07 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:23:07 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:23:07 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:23:07 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:23:07 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:23:07 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:23:07: Hello JSystem '
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:23:07: pom.xml Exist'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:23:07: Sending Ping Request to google.com'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:23:07: Host is reachable'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:23:07 IST 2019'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:23:07 IST 2019'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:23:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:23:07 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:24:05 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:24:05 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:24:05 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:24:06 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:24:06 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:24:06 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:24:06 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:24:06 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:24:06 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:24:06: Hello JSystem '
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:24:06: pom.xml Exist'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:24:06: No such host is known (googlge.com)'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:24:06 IST 2019'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:24:06 IST 2019'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:24:06 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:24:06 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:25:06 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:25:06 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:06 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:07 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:07 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:25:07 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:25:07 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:25:07 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:25:07 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:07: Hello JSystem '
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:07: pom.xml Exist'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:07: No such host is known (googlge.com)'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:25:07 IST 2019'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:25:07 IST 2019'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:25:07 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:25:07 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:25:44 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:25:44 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:44 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:45 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:25:45 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:25:45 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:25:45 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:25:45 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:25:45 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:45: Hello JSystem '
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:45: pom.xml Exist'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:25:45: No such host is known (googlge.com)'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:25:45 IST 2019'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:25:45 IST 2019'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:25:45 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:25:45 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:27:32 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:27:32 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:27:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:27:33 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:27:33 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:27:33 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:27:33 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:27:33 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:27:33 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:27:33: Hello JSystem '
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:27:33: pom.xml Exist'
+Feb 26, 2019 10:27:33 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:27:33: Sending Ping Request to google.com'
+Feb 26, 2019 10:27:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:27:34: Host is reachable'
+Feb 26, 2019 10:27:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:27:33 IST 2019'
+Feb 26, 2019 10:27:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:27:34 IST 2019'
+Feb 26, 2019 10:27:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:27:34 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:27:34 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:28:17 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:28:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:28:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:28:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:28:17 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:28:17 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:28:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:28:17 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:28:18 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:28:18 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:28:18: Hello JSystem '
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:28:18: Fail: null'
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:28:17 IST 2019'
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:28:18 IST 2019'
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:28:18 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:28:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:28:18: Fixture: root failTearDown'
+Feb 26, 2019 10:29:16 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:29:16 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:16 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:17 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:17 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:29:17 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:29:17 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:29:17 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:29:17 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:17: Hello JSystem '
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:17: Fail: null'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:29:17 IST 2019'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:29:17 IST 2019'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:29:17 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:29:17 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:17: Fixture: root failTearDown'
+Feb 26, 2019 10:29:47 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:29:47 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:48 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:48 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:29:48 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:29:48 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:29:48 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:29:48 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:29:48 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:29:49 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:49: Hello JSystem '
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:49: pom.xml Exist'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:49: Sending Ping Request to google.com'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:29:49: Host is reachable'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:29:48 IST 2019'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:29:49 IST 2019'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:29:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:29:49 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:31:09 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:31:09 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:10 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:10 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:10 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:31:10 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:31:10 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:31:10 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:31:11 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:31:11 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:31:11: Hello JSystem '
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:31:11: pom.xml Exist'
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:31:11: No such host is known (google.cwom)'
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:31:10 IST 2019'
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:31:11 IST 2019'
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:31:11 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:31:11 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:31:39 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:31:39 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:39 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:39 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:31:39 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:31:39 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:31:39 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:31:39 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:31:40 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:31:40 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:31:40 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:31:40: Hello JSystem '
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:31:40: pom.xml Exist'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:31:40 IST 2019'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:31:40 IST 2019'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:31:40 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:31:40 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:32:19 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:32:19 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:19 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:19 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:19 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:32:19 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:32:19 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:32:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:32:20 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:32:20 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:32:20: Hello JSystem '
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:32:20: pom.xml Exist'
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:32:19 IST 2019'
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:32:20 IST 2019'
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:32:20 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:32:20 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:32:58 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:32:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:32:58 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:32:58 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:32:58 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:32:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:32:59 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:32:59 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:32:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:32:59: Hello JSystem '
+Feb 26, 2019 10:32:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:32:58 IST 2019'
+Feb 26, 2019 10:32:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:32:59 IST 2019'
+Feb 26, 2019 10:32:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:32:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:32:59 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:33:18 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:33:18 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:18 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:18 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:18 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:33:18 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:33:18 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:33:18 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:33:19 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:33:19 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:33:19: Hello JSystem '
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:33:19: No such host is known (google.comm)'
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:33:18 IST 2019'
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:33:19 IST 2019'
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:33:19 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:33:19 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:33:34 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:33:34 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:34 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:35 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:33:35 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:33:35 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:33:35 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:33:35 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:33:35 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:33:35: Hello JSystem '
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:33:35 IST 2019'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:33:35 IST 2019'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:33:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:33:36 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:35:08 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:35:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:35:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:35:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:35:08 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:35:08 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:35:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:35:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:35:09 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:35:09 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:35:09 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:35:09: Hello JSystem '
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:35:09 IST 2019'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:35:09 IST 2019'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:35:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:35:09 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:38:02 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:38:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:38:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:38:02 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:38:02 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:38:02 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:38:02 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:38:02 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:38:03 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:38:03 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:38:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:38:03: Hello JSystem '
+Feb 26, 2019 10:38:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:38:02 IST 2019'
+Feb 26, 2019 10:38:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:38:03 IST 2019'
+Feb 26, 2019 10:38:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:38:03 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:38:03 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:41:29 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:41:29 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:29 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:30 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:30 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:41:30 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:41:30 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:41:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:41:31 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:41:31 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:41:31: Hello JSystem '
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:41:31: Host is reachable'
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:41:30 IST 2019'
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:41:31 IST 2019'
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:41:31 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:41:31 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:41:49 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:41:49 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:49 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:49 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:41:49 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:41:49 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:41:49 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:41:49 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:41:50 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:41:50 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:41:50: Hello JSystem '
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:41:50: Host is reachable'
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:41:49 IST 2019'
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:41:50 IST 2019'
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:41:50 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:41:50 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:42:13 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:42:13 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:42:13 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:42:13 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:42:13 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:42:13 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:42:13 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:42:13 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:42:14 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:42:14 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:42:14: Hello JSystem '
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:42:14: Host is reachable'
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:42:13 IST 2019'
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:42:14 IST 2019'
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:42:14 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:42:14 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:43:08 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:43:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:08 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:43:08 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:43:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:43:08 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:43:09 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:43:09 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:43:09 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:09: Hello JSystem '
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:09: Host is reachable'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:43:09 IST 2019'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:43:09 IST 2019'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:43:09 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:43:09 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:43:25 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:43:25 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:25 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:26 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:26 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:43:26 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:43:26 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:43:26 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:43:26 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:26: Hello JSystem '
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:26: No such host is known (127.0.0.888)'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:43:26 IST 2019'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:43:26 IST 2019'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:43:26 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:43:27 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:43:58 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:43:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:58 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:43:58 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:43:58 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:43:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:43:58 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:43:59 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:43:59 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:43:59 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:59: Hello JSystem '
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:43:59: No such host is known (127.0.0.888)'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:43:59 IST 2019'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:43:59 IST 2019'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:43:59 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:43:59 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:44:27 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:44:27 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:44:27 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:44:28 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:44:28 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:44:28 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:44:28 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:44:28 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:44:28 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:44:28 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:44:28: Hello JSystem '
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:44:29: Fail: No such host is known (127.0.0.888)'
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:44:28 IST 2019'
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:44:29 IST 2019'
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:44:29 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:44:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:44:29: Fixture: root failTearDown'
+Feb 26, 2019 10:45:41 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:45:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:45:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:45:41 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:45:42 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:45:42 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:45:42 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:45:42 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:45:42 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:45:42: Hello JSystem '
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:45:42: pom.xml Exist'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:45:42: Fail: No such host is known (127.0.0.888)'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:45:42 IST 2019'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:45:42 IST 2019'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:45:42 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:45:42 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:45:42: Fixture: root failTearDown'
+Feb 26, 2019 10:48:37 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:48:37 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:48:37 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:48:37 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:48:37 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:48:37 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:48:37 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:48:37 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:48:38 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:48:38 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:48:38 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:48:38: Hello JSystem '
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:48:38: pom.xml Exist'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:48:38 IST 2019'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:48:38 IST 2019'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:48:38 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(2)Steps in test: exercise.null :'
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:48:38 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:48:38 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:48:38 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:48:38 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:48:43: Fail: Host is not reachable'
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:48:38 IST 2019'
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:48:43 IST 2019'
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 4 sec.'
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:48:43 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:48:43 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:48:43: Fixture: root failTearDown'
+Feb 26, 2019 10:55:29 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:55:29 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:55:29 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:55:29 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:55:29 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:55:29 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:55:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:55:29 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:55:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:55:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:55:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:55:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:55:30 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:55:30 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:55:30 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:55:30 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:55:35: Fail: Host is not reachable'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:55:30 IST 2019'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:55:35 IST 2019'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 5 sec.'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:55:35 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:55:35: Fixture: root failTearDown'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(2)Steps in test: exercise.null :'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:55:35 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:55:35 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:55:35 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:55:35: Hello JSystem '
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:55:35: pom.xml Exist'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:55:35 IST 2019'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:55:35 IST 2019'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:55:35 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:55:35 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:59:45 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :C:\Users\Saarb\IdeaProjects\exercise\.run.properties
+Feb 26, 2019 10:59:45 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:59:45 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:59:45 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Feb 26, 2019 10:59:46 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: default.xml
+Feb 26, 2019 10:59:46 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: exercise.null :'
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:59:46 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:59:46 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:59:46 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:59:46 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:59:51: Fail: Host is not reachable'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter addError
+FINE: Received error event
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:59:46 IST 2019'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:59:51 IST 2019'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 5 sec.'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:59:51 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:59:51: Fixture: root failTearDown'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is exercise
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: exercise.null'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(2)Steps in test: exercise.null :'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Feb 26, 2019 10:59:51 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code. de.java2html.converter.JavaSource2HTMLConverter.<init>(de.java2html.javasource.JavaSource)
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Feb 26, 2019 10:59:51 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Feb 26, 2019 10:59:51 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: null
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:59:51: Hello JSystem '
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '22:59:51: pom.xml Exist'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Tue Feb 26 22:59:51 IST 2019'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Tue Feb 26 22:59:51 IST 2019'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Feb 26, 2019 10:59:51 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Feb 26, 2019 10:59:51 PM jsystem.framework.scenario.ParametersManager retrieveTestParametersToEnvironment
+FINE: running from dev studio, no need to return parameters

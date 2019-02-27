@@ -1,0 +1,17 @@
+java.util.logging.FileHandler.pattern=jsystem%g.log
+sutClassName=jsystem.framework.sut.SutImpl
+resources.src=C\:\\Users\\Saarb\\IdeaProjects\\exercise\\src\\main\\resources
+logger=true
+jsystem.level=FINER
+java.util.logging.ConsoleHandler.level=INFO
+java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter
+tests.dir=C\:\\Users\\Saarb\\IdeaProjects\\exercise\\target\\classes
+java.util.logging.FileHandler.formatter=java.util.logging.SimpleFormatter
+java.util.logging.FileHandler.count=4
+java.util.logging.FileHandler.append=true
+java.util.logging.FileHandler.limit=10000000
+tests.src=C\:\\Users\\Saarb\\IdeaProjects\\exercise\\src\\main\\java
+handlers=java.util.logging.FileHandler java.util.logging.ConsoleHandler
+htmlReportDir=log
+sutFile=default.xml
+reporter.classes=jsystem.extensions.report.difido.HtmlReporter;jsystem.framework.report.SystemOutTestReporter;jsystem.extensions.report.xml.XmlReporter;jsystem.extensions.report.junit.JUnitReporter

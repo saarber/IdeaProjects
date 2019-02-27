@@ -1,0 +1,1 @@
+var execution = {"machines":[{"type":"machine","plannedTests":0,"name":"SAMBA-LAPTOP","status":"success","children":[{"type":"scenario","scenarioProperties":null,"name":"default","status":"success","children":[{"type":"test","index":0,"uid":"8131551214785-1","duration":0,"timestamp":"22:59:46:","className":"exercise","name":"exercise","status":"success"}]}]}]};
